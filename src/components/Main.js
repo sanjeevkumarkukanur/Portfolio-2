@@ -12,7 +12,7 @@ function Main() {
                         <p1 className="name-pra">i'm Develo<span>per</span></p1>
                     </div>
                     <div className="name-img">
-                        <div className="img-sev"><img src='/' /></div>
+                        <div className="img-sev">sanjeev</div>
                     </div>
                 </div>
             </div>
