@@ -4,6 +4,7 @@ import './App.css';
 import Main from './components/Main';
 import Navbar from './components/Navbar'
 import Education from './components/Education'
+import Footer from './components/Footer'
 // import Home from './components/pages/home';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route path='/' exact component={Main} />
       </Switch>
       <Education />
+      <Footer />
     </Router>
   );
 }
