@@ -1,6 +1,6 @@
 .container-sec {
   height: 100vh;
-  background: rgb(67, 67, 219);
+  background: #0660e9;
 }
 .container-main {
   display: flex;
@@ -48,6 +48,7 @@
     height: 300px;
     width: 300px;
     background: cornsilk;
+    display: none;
   }
   .name-head {
     font-size: 50px;

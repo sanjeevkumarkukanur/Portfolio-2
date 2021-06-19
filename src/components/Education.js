@@ -12,32 +12,8 @@ function Education() {
         <div>
             <div className="Education__section">
                 <div className="Education__wrapper">
-                    <h1 className="Education__heading">Education</h1>
+                    <h1 className="Education__heading">Education </h1>
                     <div className="Education__container">
-                        <Link to='/education' className="Education__container-card">
-                            <div className="Education__container-cardInfo">
-                                <div className="icon">
-                                    <FaFire />
-                                </div>
-                                
-                            </div>
-                        </Link>
-                        <Link to='/education' className="Education__container-card">
-                            <div className="Education__container-cardInfo">
-                                <div className="icon">
-                                    <BsXDiamondFill />
-                                </div>
-                                
-                            </div>
-                        </Link>
-                        <Link to='/education' className="Education__container-card">
-                            <div className="Education__container-cardInfo">
-                                <div className="icon">
-                                    <GiCrystalize />
-                                </div>
-                                
-                            </div>
-                        </Link>
                         <Link to='/education' className="Education__container-card">
                             <div className="Education__container-cardInfo">
                                 <div className="icon">

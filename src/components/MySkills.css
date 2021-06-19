@@ -1,40 +1,39 @@
-.Education__section {
+.MySkills__section {
   padding: 10px 0 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   background: #fafafa;
 }
-
-.Education__heading {
+.MySkills__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 40px;
+  padding-left: 80px;
+}
+.MySkills__heading {
   color: #0660e9;
   display: flex;
   justify-content: center;
+  align-items: center;
   margin: 30px 0;
+  font-weight: 700;
   font-style: italic;
 }
-.Education__container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  justify-content: center;
-  align-items: center;
-  grid-gap: 50px;
-  padding-left: 80px;
-  /* grid-gap: 40px; */
-  /* padding-left: 80px; */
-}
 
-.Education__container-card {
+.MySkills__container-card {
   background: linear-gradient(45deg, #0660e9, 0%, #276afb 100%);
   box-shadow: 0 6px 20px rgba(56, 155, 255, 0.2);
-  width: 300px;
-  height: 340px;
+  width: 280px;
+  height: 280px;
   text-decoration: none;
   border-radius: 4px;
 }
 
-.Education__container-card:hover {
+.MySkills__container-card:hover {
   transform: scale(1.06);
   transition: all 0.3s ease-out;
   color: #1c2233;
@@ -44,15 +43,15 @@
   margin: 24px 0;
 }
 @media screen and (max-width: 960px) {
-  .Education__container {
+  .MySkills__container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding-left: 25px;
+    padding-left: 20px;
   }
-  .Education__container-card {
+  .MySkills__container-card {
     background: linear-gradient(45deg, #0660e9, 0%, #276afb 100%);
     box-shadow: 0 6px 20px rgba(56, 155, 255, 0.2);
     width: 300px;
