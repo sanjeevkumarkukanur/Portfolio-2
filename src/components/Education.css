@@ -9,8 +9,9 @@
 .Education__heading {
   color: #0660e9;
   display: flex;
-  justify-content: center;
-  margin: 30px 0;
+  /* justify-content: center; */
+  padding-left: 60px;
+  margin: 30px;
   font-style: italic;
 }
 .Education__container {

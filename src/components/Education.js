@@ -17,6 +17,7 @@ function Education() {
                         <Link to='/education' className="Education__container-card">
                             <div className="Education__container-cardInfo">
                                 <div className="icon">
+                                {/* <img src={images} height={100} width={100} /> */}
                                     <FaFire />
                                 </div>
                                 

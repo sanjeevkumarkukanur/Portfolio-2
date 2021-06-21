@@ -7,6 +7,7 @@ import Education from './components/Education'
 import MySkills from './components/MySkills'
 import Footer from './components/Footer'
 import About from './components/About';
+import More from './components/More';
 // import Home from './components/pages/home';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <About />
       <Education />
       <MySkills />
+      <More />
       <Footer />
     </Router>
   );
