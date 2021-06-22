@@ -17,13 +17,13 @@ function Footer() {
       <div className='footer-links'>
         <div className='footer-link-wrapper'>
 
-          <div className='footer-link-items'>
+          {/* <div className='footer-link-items'>
             <h2>Contact Us</h2>
             <Link to='/'>Contact</Link>
             <Link to='/'>Support</Link>
             <Link to='/'>Destinations</Link>
             <Link to='/'>Sponsorships</Link>
-          </div>
+          </div> */}
           <div className='footer-link-items'>
             <h2>Social Media</h2>
             <Link to='/'>Instagram</Link>
@@ -43,14 +43,14 @@ function Footer() {
           </div>
           <small className='website-rights'>Sandy © 2021</small>
           <div className='social-icons'>
-            <Link
+            {/* <Link
               className='social-icon-link'
               to='/'
               target='_blank'
               aria-label='Facebook'
             >
               <FaFacebook />
-            </Link>
+            </Link> */}
             <Link
               className='social-icon-link'
               to='/'
@@ -59,14 +59,14 @@ function Footer() {
             >
               <FaInstagram />
             </Link>
-            <Link
+            {/* <Link
               className='social-icon-link'
                 to='/'
               target='_blank'
               aria-label='Youtube'
             >
               <FaYoutube />
-            </Link>
+            </Link> */}
             <Link
               className='social-icon-link'
               to='/'

@@ -28,10 +28,12 @@
   color: #fff;
   font-size: 25px;
   font-weight: 300;
-  padding-left: 400px;
+  padding-left: 250px;
 }
 .name-pra span {
   color: crimson;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 .name-img {
   border-radius: 50%;

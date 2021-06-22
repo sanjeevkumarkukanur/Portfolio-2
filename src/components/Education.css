@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: #fafafa;
+  background: #fff;
 }
 
 .Education__heading {
@@ -27,22 +27,52 @@
 }
 
 .Education__container-card {
-  background: linear-gradient(45deg, #0660e9, 0%, #276afb 100%);
+  background: #fff;
   box-shadow: 0 6px 20px rgba(56, 155, 255, 0.2);
   width: 300px;
   height: 340px;
   text-decoration: none;
   border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .Education__container-card:hover {
   transform: scale(1.06);
   transition: all 0.3s ease-out;
-  color: #1c2233;
+  /* color: #1c2233; */
+}
+.Education__container-cardInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.icon {
+.Education__icon {
   margin: 24px 0;
+}
+.Education__icon img {
+  border-radius: 50%;
+}
+.degree {
+  color: #000;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 15px 0;
+}
+.institute {
+  color: #000;
+  padding-left: 18px;
+  font-size: 16px;
+}
+.diploma {
+  margin-left: 40%;
+}
+.be {
+  margin-left: 35%;
+}
+.sslc {
+  margin-left: 30%;
 }
 @media screen and (max-width: 960px) {
   .Education__container {
@@ -54,7 +84,7 @@
     padding-left: 25px;
   }
   .Education__container-card {
-    background: linear-gradient(45deg, #0660e9, 0%, #276afb 100%);
+    background: #fff;
     box-shadow: 0 6px 20px rgba(56, 155, 255, 0.2);
     width: 300px;
     height: 300px;

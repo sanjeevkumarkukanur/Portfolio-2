@@ -1,9 +1,8 @@
 import React from 'react'
-import { FaFire } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
-import { BsXDiamondFill } from 'react-icons/bs'
-import { GiCrystalize } from 'react-icons/gi'
 import { IconContext } from 'react-icons/lib'
+import  SIT  from './images/SIT.jpg'
+import GPT from './images/GPT.jpeg'
 import './Education.css'
 
 function Education() {
@@ -16,28 +15,33 @@ function Education() {
                     <div className="Education__container">
                         <Link to='/education' className="Education__container-card">
                             <div className="Education__container-cardInfo">
-                                <div className="icon">
-                                {/* <img src={images} height={100} width={100} /> */}
-                                    <FaFire />
+                                <div className="Education__icon">
+                                <img src={SIT} height={120} width={120} alt='SIT'/>
                                 </div>
+                                <p3 className='degree'>Bachelor of Engineering</p3>
+                                <p4 className='institute'>Siddaganga Institute of Technology, <span className='be'>Tumakuru</span></p4>
                                 
                             </div>
                         </Link>
                         <Link to='/education' className="Education__container-card">
                             <div className="Education__container-cardInfo">
-                                <div className="icon">
-                                    <BsXDiamondFill />
+                                <div className="Education__icon">
+                                <img src={GPT} height={120} width={120} alt='SIT'/>
                                 </div>
+                                <p3 className='degree'>Diploma</p3>
+                                <p4 className='institute'>Government Polytechnic Vidyanagar, <span className='diploma'>Hubli</span></p4>
                                 
                             </div>
                         </Link>
                         <Link to='/education' className="Education__container-card">
                             <div className="Education__container-cardInfo">
-                                <div className="icon">
-                                    <GiCrystalize />
+                                <div className="Education__icon">
+                                <img src={GPT} height={120} width={120} alt='SIT'/>
                                 </div>
-                                
-                            </div>
+                                <p3 className='degree'>SSLC</p3>
+                                <p4 className='institute'>Sadguru Sri Siddarudha Swamy High <span className='sslc'>School, Hubli</span></p4>
+                                </div>
+                            
                         </Link>
                     </div>
                 </div>
