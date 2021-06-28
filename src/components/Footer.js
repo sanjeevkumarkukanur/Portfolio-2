@@ -2,13 +2,12 @@ import React from 'react';
 import './Footer.css';
 import { Link } from 'react-router-dom';
 import {
-  FaFacebook,
   FaInstagram,
-  FaYoutube,
   FaTwitter,
   FaLinkedin
 } from 'react-icons/fa';
 import { GiFigurehead } from 'react-icons/gi';
+import { FiGithub } from 'react-icons/fi'
 
 
 function Footer() {
@@ -26,6 +25,7 @@ function Footer() {
           </div> */}
           <div className='footer-link-items'>
             <h2>Social Media</h2>
+            <Link to='https://github.com/sanjeevkumarkukanur'>Github</Link>
             <Link to='/'>Instagram</Link>
             <Link to='/'>Facebook</Link>
             <Link to='/'>Youtube</Link>
@@ -43,14 +43,14 @@ function Footer() {
           </div>
           <small className='website-rights'>Sandy © 2021</small>
           <div className='social-icons'>
-            {/* <Link
+            <Link
               className='social-icon-link'
-              to='/'
+              to='https://github.com/sanjeevkumarkukanur'
               target='_blank'
-              aria-label='Facebook'
+              aria-label='Github'
             >
-              <FaFacebook />
-            </Link> */}
+              <FiGithub />
+            </Link>
             <Link
               className='social-icon-link'
               to='/'

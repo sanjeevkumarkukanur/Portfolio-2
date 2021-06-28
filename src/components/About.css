@@ -21,11 +21,11 @@
   grid-template-columns: 1fr 2fr;
   margin: 0 90px;
 }
-.About__img {
+.About__img img {
   height: 300px;
   width: 300px;
   background: #fff;
-  border-radius: 10px;
+  border-radius: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .About__text {
@@ -49,11 +49,10 @@
     flex-direction: column;
     justify-content: center;
   }
-  .About__img {
+  .About__img img {
     height: 300px;
     width: 300px;
     margin-right: 90px;
-    background: blueviolet;
     border-radius: 10px;
   }
 }

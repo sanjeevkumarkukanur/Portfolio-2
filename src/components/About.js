@@ -1,6 +1,7 @@
 import React from 'react'
 // import { Link } from 'react-router-dom'
 import './About.css'
+import Photo from '../components/images/Photo.jpg'
 
 
 function About() {
@@ -10,7 +11,7 @@ function About() {
                     <h1 className="About__heading">About</h1>
                 <div className='About__container'>
                         <div className='About__img'>
-                            sdrd
+                            <img src={Photo} alt='Photos'/>
                         </div>
                         <div className='About__text'>
                             <h1 className='About__name'>Sanjeevmar Kukanur</h1>
