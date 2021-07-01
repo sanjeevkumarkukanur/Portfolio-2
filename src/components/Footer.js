@@ -13,7 +13,6 @@ import { FiGithub } from 'react-icons/fi'
 function Footer() {
   return (
     <div className='footer-container'>
-      <div className='footer-links'>
         <div className='footer-link-wrapper'>
 
           {/* <div className='footer-link-items'>
@@ -25,13 +24,14 @@ function Footer() {
           </div> */}
           <div className='footer-link-items'>
             <h2>Social Media</h2>
+            <div className='footer-link-items-list'>
             <Link to='https://github.com/sanjeevkumarkukanur'>Github</Link>
             <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
+            {/* <Link to='/'>Facebook</Link>  */}
             <Link to='/'>Youtube</Link>
             <Link to='/'>Twitter</Link>
+            </div>
           </div>
-        </div>
       </div>
       <section className='social-media'>
         <div className='social-media-wrap'>
